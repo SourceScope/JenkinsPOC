@@ -8,5 +8,19 @@ namespace JenkinsPOC.Library
 {
     public class DoSomethingElse
     {
+
+        public void execute(object UnusedVariable)
+        {
+
+            try
+            {
+
+            }
+            catch(Exception exception)
+            {
+                throw exception;
+            }
+        }
+
     }
 }
